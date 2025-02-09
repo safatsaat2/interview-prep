@@ -19,3 +19,6 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+.icon-wrapper:hover svg path{
+  fill: #34E89E;
+}
