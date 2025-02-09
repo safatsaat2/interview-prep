@@ -7,9 +7,13 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        raleway: "var(--font-raleway)",
+        montserrat: "var(--font-montserrat)",
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        customGreen: "#34E89E",
+        customBlue: "#0F3443",
       },
     },
   },
