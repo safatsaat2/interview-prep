@@ -10,7 +10,7 @@ const HeroSection = () => {
                     <h2 className='text-white font-raleway text-6xl font-bold'>
                     Ace Your Interviews with Confidence 
                     </h2>
-                    <p className='text-white font-montserrat '>
+                    <p className='text-white mt-4 font-montserrat '>
                     From beginners to pros, we’ve got you covered.
                     </p>
                     <Link href="/" className='px-6 py-2 bg-customBlue text-white font-montserrat text-lg inline-block mt-4 shadow-lg hover:-translate-y-2 duration-150 rounded-md'>Get Started</Link>
