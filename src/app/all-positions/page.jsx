@@ -4,10 +4,10 @@ import AvailableInterview from "../_components/all-positions/AvailableInterview"
 
 const page = () => {
   return (
-    <>
+    <div className="relative">
     <HeaderArea/>
     <AvailableInterview/>
-    </>
+    </div>
   );
 };
 
