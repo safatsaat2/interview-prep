@@ -1,12 +1,15 @@
 import HeaderArea from "@/app/_components/s-qustions/HeaderArea";
 
-const Page = ({ params }) => {
-    const {'subject-slug' : subjectSlug} = params;
-    return (
-        <div>
-            <HeaderArea tilte={subjectSlug} />
-        </div>
-    );
-};
+export default async function Page ({ params }) {
+    
 
-export default Page;
+    const {"subject-slug" : subjectSlugs}  = await params; 
+
+    const formattedTitle = subjectSlugs.replace(/-/g, " ");
+
+    return (
+        <>
+            <HeaderArea title={formattedTitle} />
+        </>
+    );
+};;
